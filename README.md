@@ -43,15 +43,15 @@ If the GIFs are not present or are too large, the app still works and just shows
 ## 📱 Screenshots
 
 ### Welcome Screen
-![Welcome Screen](astroquix/welcome_scr.png)
+![Welcome Screen](welcome_scr.png)
 *Calm welcome with "Hell Yeah!! Let's go!!" button*
 
 ### Quiz in Action
-![Quiz Screen](astroquix/quiz_scr.png)
+![Quiz Screen](quiz_scr.png)
 *Stars background + question + 60s timer + option buttons*
 
 ### Final Results
-![Results](astroquix/results_scr.png)
+![Results](results_scr.png)
 *"Stage Completed! 9/10 in 36s"*
 
 ---
