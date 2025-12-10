@@ -380,8 +380,6 @@ def generate_fair_questions():
 #Function to load questions
 def load_question():
     global current_question, score,questions_list
-   
-    
     if not questions_list or current_question >= len(questions_list):
         questions_list = generate_fair_questions()
         current_question = 0
@@ -415,7 +413,6 @@ def check_ans(selected_option):
     if selected_option == correct_answer:
         score += 1
         update_score_label()
-    
     else:
         messagebox.showinfo("Warning!", f" wrong manoeuvre cap'n ! \n - right button was: {correct_answer}")
 
@@ -436,7 +433,6 @@ def check_ans(selected_option):
         messagebox.showinfo("Well done!", f" Your score: {score}/{10},\n woahhh! that was close! you got it in {time_taken}s\n you've escaped the blackhole!")
     else:
         messagebox.showinfo("Try Again!", f" Your score: {score}/{10},\n you did well in {time_taken}s but,\n uhh ohh!! you were caught in a blackhole!")
-
     # hide option buttons and show restart button
     for b in buttons:
         b.pack_forget()
@@ -465,7 +461,6 @@ def start_quiz():
     question_label.pack(pady=20)
     questions_list = generate_fair_questions() # Fresh random set
     quiz_background()#switching to quiz bg
-
     for button in buttons:
         button.pack(pady=5)  
     hide_welcome()
@@ -569,4 +564,5 @@ def stop_timer():
 welcome_background()
 if __name__ == "__main__":
     window.mainloop()
+
 
