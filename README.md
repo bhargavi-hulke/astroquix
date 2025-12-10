@@ -1,6 +1,6 @@
 # 🌌 Astroquix – astronomy quiz game
 
-Astroquix is my first full Python project: a space‑themed multiple‑choice quiz game with animated backgrounds, a countdown timer, and a pool of easy‑to‑moderate astronomy questions. It runs as a desktop app using Tkinter and Pillow. Originally,it started as a simple rapid-fire quiz to test the player's knowledge in astronomy and gradually turned into a small space arcade–style experience with animated backgrounds.It also takes the player on a journey through the cosmos with its quirky and space themed messages, with the quiz.
+Astroquix is my first full Python project: a space‑themed multiple‑choice quiz game with animated backgrounds, a countdown timer, and a pool of easy‑to‑moderate astronomy questions. It runs as a desktop app using Tkinter and Pillow. Originally,it started as a simple **rapid-fire quiz** to test the player's knowledge in astronomy and gradually turned into a small space arcade–style experience with animated backgrounds.It also takes the player on a journey through the cosmos with its quirky and space themed messages, with the quiz.
 
 ---
 
